@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garagem Automotiva | Carros e Tecnologia</title>
+
+    <link rel="stylesheet" href="css/esilo.css"> 
+</head>
+
+<body>
+
+    <header>
+        <h1>Garagem Automotiva</h1>
+        <p>Paixão por carros. Conexão com a tecnologia.</p>
+
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#participar">Participar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>O futuro das ruas começa aqui</h2>
+
+            <p>
+                Bem-vindo à Garagem Automotiva, um espaço dedicado
+                aos apaixonados por carros, inovação e engenharia.
+                Explore tecnologias que estão transformando a
+                experiência de dirigir.
+            </p>
+
+            <p>
+                De motores tradicionais a veículos elétricos,
+                descubra como a tecnologia está mudando o mundo
+                automotivo.
+            </p>
+
+            <img
+                class="imagem-principal"
+                src="imagens/carro-principal.jpg.jpg"
+                alt="Carro esportivo "
+            >
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologias em destaque</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    
+                    <img
+                        class="imagem-card"
+                        src="imagens/carro-eletrico.jpg.jpg"
+                        alt="Carro elético "
+                    >
+
+                    <h3>Carros elétricos</h3>
+                    <p>
+                        Conheça os veículos elétricos, suas baterias
+                        e os avanços que ajudam a transformar a
+                        mobilidade.
+                    </p>
+                    <a class="card-link" href="#participar">Quero saber mais</a>
+                </article>
+
+                <article class="card">
+                        
+                        <img
+                            class="imagem-card"
+                            src="imagens/conectividade.jpg.jpg"
+                            alt="Painel digital denum carro"
+                         >
+
+                    <h3>Conectividade automotiva</h3>
+                    <p>
+                        Descubra como sensores, sistemas inteligentes
+                        e conexões digitais estão presentes nos
+                        veículos modernos.
+                    </p>
+                    <a class="card-link" href="#participar">Quero saber mais</a>
+                </article>
+
+                <article class="card">
+                        
+                        <img
+                            class="imagem-card"
+                            src="imagens/engenharia.jpg.jpg"
+                            alt=" Motor e componentes automotivos "
+                        >
+
+                    <h3>Desempenho e engenharia</h3>
+                    <p>
+                        Explore motores, aerodinâmica e soluções
+                        de engenharia que influenciam o desempenho
+                        e a eficiência dos automóveis.
+                    </p>
+                    <a class="card-link" href="#participar">Quero saber mais</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="participar">
+            <h2>Entre para a garagem</h2>
+
+            <p>
+                Gosta de carros e tecnologia? Preencha o formulário
+                demonstrativo abaixo e escolha seu assunto favorito.
+            </p>
+
+            <form class="formulário" action="#" method="get">
+                <div>
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div>
+                    <label for="email">Seu e-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                </div>
+
+                <div>
+                    <label for="assunto">Seu interesse:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Escolha uma opção</option>
+                        <option value="eletricos">Carros elétricos</option>
+                        <option value="conectividade">Tecnologia automotiva</option>
+                        <option value="engenharia">Motores e engenharia</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="novidades" name="novidades">
+                    <label for="novidades">
+                        Tenho interesse em novidades automotivas.
+                    </label>
+                </div>
+
+                <button type="submit">Enviar respostas</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Garagem Automotiva — Projeto acadêmico de Front-End.</p>
+        <p>Desenvolvido para o Projeto 2: Interface Express.</p>
+    </footer>
+
+</body>
+
+</html>
